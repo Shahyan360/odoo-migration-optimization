@@ -1,0 +1,5 @@
+<odoo>
+      <record id="group_user" model="res.groups"><field name="name">Inventory Migration and Query Analysis User</field><field name="implied_ids" eval="[(4, ref('base.group_user')),(4, ref('stock.group_stock_manager'))]"/></record>
+      <record id="group_manager" model="res.groups"><field name="name">Inventory Migration and Query Analysis Manager</field><field name="implied_ids" eval="[(4, ref('group_user'))]"/></record>
+      <record id="base.user_admin" model="res.users"><field name="groups_id" eval="[(4, ref('group_manager'))]"/></record>
+    </odoo>

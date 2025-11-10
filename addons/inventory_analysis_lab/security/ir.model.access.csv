@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+inventory_analysis_run_user,inventory_analysis_run user,model_inventory_analysis_run,inventory_analysis_lab.group_user,1,0,0,0
+inventory_analysis_run_manager,inventory_analysis_run manager,model_inventory_analysis_run,inventory_analysis_lab.group_manager,1,1,1,1

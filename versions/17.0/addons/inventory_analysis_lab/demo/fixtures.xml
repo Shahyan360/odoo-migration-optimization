@@ -1,0 +1,1 @@
+<odoo noupdate="1"><record id="run" model="inventory.analysis.run"><field name="name">Fictional benchmark - not yet measured</field><field name="location_ids" model="stock.location" eval="[(4,obj().env.ref('stock.warehouse0').lot_stock_id.id)]"/></record></odoo>
